@@ -51,17 +51,17 @@ image(myimage2,892,579,125,125);
     
     fill(100);
     textSize(30);
-    textFont("Letter Gothic Std");
+    textFont("Courier New");
     text("CUSTOMIZE",823,40);
     
     fill(100);
     textSize(17);
-    textFont("Letter Gothic Std");
+    textFont("Courier New");
     text("use up & down keys",813, 93);
     
     fill(100);
     textSize(18);
-    textFont("Letter Gothic Std");
+    textFont("Courier New");
     text("to adjust height",818, 125);
     
     fill(100);
@@ -69,17 +69,17 @@ image(myimage2,892,579,125,125);
 
     fill(100);
     textSize(25);
-    textFont("Letter Gothic Std");
+    textFont("Courier New");
     text("color of", 843, 186);
     
     fill(100);
     textSize(25);
-    textFont("Letter Gothic Std");
+    textFont("Courier New");
     text("the hills:", 830, 223);
     
     fill(100);
     textSize(28);
-    textFont("Letter Gothic Std");
+    textFont("Courier New");
     text("day/night:", 820, 598);
     
     
