@@ -1,0 +1,153 @@
+/* set the default margin of body tag to 0, so that the gap on the edges of your page can disappear */
+body {
+    margin: 0px;
+    padding: 0px 0px 100px 120px;
+}
+
+
+/* this is your navigation style */
+nav{
+  text-align:center; 
+    letter-spacing: 1.0em;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background-color:rgb(54,53,51);
+    height:100%;
+    
+    
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+li{
+  display: block;
+    margin:20px;
+    font-family: "Architext", monospace;
+    font-size:50px;
+    letter-spacing:-0.05em;
+    width:30px;
+    height:90px;
+    
+    
+    
+    
+    
+}
+/* small code below from stackoverflow.com user Nico Burns*/
+a {
+text-decoration: none;
+}
+
+
+/* define the style for div box, the way to comment out is a bit different from html*/
+
+div {
+    padding: 50px 170px 0px 0px;
+    margin:left;
+    display:inline-block; 
+    color:rgb(54,53,51);
+    letter-spacing: -0.05em'
+    
+    /*
+    float:left;
+    width:200px; 
+    max-height:600px;
+    */
+}
+
+
+/* header wrapper that is used for the very top section on your homepage */
+
+header {
+    /* border-style: dotted; */
+    padding: 00px;
+    margin: 0px;
+    
+}
+
+
+/* footer that is shown at the very bottom part of your page*/
+
+footer {
+    text-align: right;
+    padding:0px 10px;
+}
+
+/*
+h1,h2,h3,p {
+    display:inline-block;
+}
+*/
+
+/* headings, paragraphs*/
+h1 {
+    text-align: center;
+    font-family: "Architext", Courier, monospace;
+    font-size: 50px;
+    letter-spacing: 0.5em;
+    border-style:none;
+    font-weight: 100;
+    margin: left;
+    padding: 10px;
+    
+    
+   
+}
+
+h2 {
+    color: rgb(74, 124, 206);
+    font-family: "Teen", Courier, monospace;
+    font-weight: 400;
+    font-size: 35px;
+    letter-spacing:0.25em;
+}
+
+p {
+    font-size: 24px;
+    font-family: "Architext", Courier, monospace;
+    width:1000px;
+    letter-spacing: 0.25em;
+    color: rgb(54,53,51);
+    
+}
+
+
+
+a{
+    
+    
+}
+
+/* define the style for your particular element with an id name as "random" */
+#random {
+    color: rgb(54,53,51);
+}
+
+.special {
+    border-style:none;
+}
+.block{
+    display:block;
+}
+.navtext{
+    color:rgb(0);
+}
+.navtext:hover{
+    color:rgb(74, 124, 206);
+}
+
+a:hover{
+    color:rgb(232,231,227);
+
+}
+/* defines styles for hyperlink */
+a{
+    color:rgb(255,255,255); 
+    display:inline; 
+    margin:0.5em 0em;
+
+    
+}
